@@ -116,26 +116,26 @@ sockets.on('connection', function (socket) {
 
 
 //getting the main page with the 'create chatroom' putton
-	// var chatRooms = new Object();
+//	 var chatRooms = new Object();
 	//i think i might need to push to an array but who knows
-		// chatRooms = {
-	 //  	"chatRoomURL": chatRoomURL,
-		//   	"peerID" : data.peer_id,
-		//   };
+	//	 chatRooms = {
+	//   	"chatRoomURL": chatRoomURL,
+	//	   	"peerID" : data.peer_id,
+	//	   };
+    //
+	//	for (var i = 0; i < chatRooms.length; i++){
+	//		chatRooms[i]['chatRoomURL']
+	//		if(chatRooms[i].chatRoomURL == newid){
+	//			push.chatRooms;
+	//		}
+	//	}
 
-		// for (var i = 0; i < chatRooms.length; i++){
-		// 	chatRooms[i]['chatRoomURL']
-		// 	if(chatRooms[i].chatRoomURL == newid){
-		// 		push.chatRooms;
-		// 	}
-		// }
 
-	
-	// "peers": 
-	//   	[
-	//   	 "peerOne": peerID,
-	//   	 "peerTwo": peer2,
-	//   	 "peerThree": peer3,
-	//   	 "peerFour": peer4
-	//   	]
-// });
+//	"peers":
+//	   	[
+//	   	 "peerOne": peerID,
+//	   	 "peerTwo": peer2,
+//	   	 "peerThree": peer3,
+//	   	 "peerFour": peer4
+//	   	]
+//});
