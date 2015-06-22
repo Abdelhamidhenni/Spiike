@@ -48,8 +48,8 @@ navigator.getUserMedia({video: true, audio: true}, function(stream) {
 
 	peer.on('call', function(incoming_call) {
 		console.log("Got a call!");
-		incoming_call.answer(my_stream); 
-		incoming_call.on('stream', function(remoteStream) { 
+		incoming_call.answer(my_stream);
+		incoming_call.on('stream', function(remoteStream) {
 			var ovideoElement = document.getElementById('othervideo');
 			ovideoElement.src = window.URL.createObjectURL(remoteStream) || remoteStream;
 			ovideoElement.play();
@@ -72,9 +72,9 @@ navigator.getUserMedia({video: true, audio: true}, function(stream) {
 		newPeer = data.peer_id;
 		chatroomID = data.chatroom;
 
-	if chatroomString == chatroomID {
+	if (chatroomString == chatroomID){
 
-		var call = peer.call(data.peer_id, my_stream); 
+		var call = peer.call(data.peer_id, my_stream);
 		call.on('stream', function(remoteStream) {
 			console.log("Got remote stream");
 			document.getElementById('othervideo').src = window.URL.createObjectURL(remoteStream) || remoteStream;
