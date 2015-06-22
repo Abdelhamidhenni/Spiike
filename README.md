@@ -1,4 +1,4 @@
-Spyke
+Spiike
 =====
 
 An in-browser video chat service.

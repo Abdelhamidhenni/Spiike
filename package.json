@@ -1,5 +1,5 @@
 {
-  "name": "spyke",
+  "name": "spiike",
   "version": "0.0.0-7",
   "description": "video chat web app",
   "main": "app.js",
@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/allisonburtch/Spyke.git"
+    "url": "https://github.com/abdelhamidhenni/Spiike.git"
   },
   "author": "allison burtch",
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "55534107b85eb70493e19bca259b168d975f8392",
-  "subdomain": "spyke",
+  "subdomain": "spiike",
   "engines": {
     "node": "0.10.x"
   }
