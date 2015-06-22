@@ -6,11 +6,11 @@ var app = require('express')(),
     server = require('http').createServer(app),
     io = require('socket.io').listen(server),
     port = 8080,
-    url  = 'http://localhost:' + port + '/';
+    url  = 'https://localhost:' + port + '/';
 /* We can access nodejitsu enviroment variables from process.env */
 /* Note: the SUBDOMAIN variable will always be defined for a nodejitsu app */
 if(process.env.SUBDOMAIN){
-  url = 'http://' + process.env.SUBDOMAIN + '.jit.su/';
+  url = 'https://' + process.env.SUBDOMAIN + '.jit.su/';
 }
 
 server.listen(port);
